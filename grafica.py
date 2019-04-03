@@ -15,7 +15,7 @@ for tex i n texto:
 	tex.set_color('white')
 
 pyplot.axis('equal')
-pyplot.title('grafica de lenguajes de programacion')
+pyplot.title('grafica con lenguajes de programacion')
 #pyplot.legend(labels=lenguajes)
 #pyplot.show()
 pyplot.savefig('lenguajes.png')
