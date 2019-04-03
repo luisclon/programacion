@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 from matplotlib import colors
 
-manzanas = [20,10,25,30]
-nombres = ["Ana","Juan","Diana","Catalina"]
+manzanas = [10,20,25,30]
+nombres = ["Luis","Maria","Jose","Pedro"]
 
 normdata = colors.Normalize(min(manzanas), max(manzanas))
 colormap = cm.get_cmap("Blues")
